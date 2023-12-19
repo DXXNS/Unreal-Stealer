@@ -23,10 +23,28 @@ import ssl
 
 
 
-
+#Username Blacklist
 blacklistUsers = []
 
 username = getpass.getuser()
 
 if username.lower() in blacklistUsers:
+    os._exit(0)
+#hostname Blacklist
+def control():
+
+    blacklistUsername = []
+
+    hostname = socket.gethostname()
+
+    if any(name in hostname for name in blacklistUsername):
+        os._exit(0)
+
+control()
+
+#UUID Blacklist
+BLACKLIST1 = []
+
+mac_address = uuid.getnode()
+if str(uuid.UUID(int=mac_address)) in BLACKLIST1:
     os._exit(0)
